@@ -1,0 +1,5 @@
+s=input("enter::")
+c=input("enter:::::")
+for i in s:
+    if i==c:
+        print(s.find(c)) 
