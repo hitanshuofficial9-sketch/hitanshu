@@ -1,5 +1,7 @@
+
+
 s=input("enter::")
 c=input("enter:::::")
-for i in s:
-    if i==c:
-        print(s.find(c)) 
+for i in range(0,len(s)):
+    if s[i]==c:
+        print(i) 
