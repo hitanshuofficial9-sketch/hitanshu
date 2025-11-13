@@ -1,0 +1,9 @@
+str=input("enter your man marzi sentence::")
+a='.,/!?_-'
+b=" "
+for i in str:
+    if i not in a:
+        b=b+i
+print(b.lower())
+
+
